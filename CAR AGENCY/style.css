@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000;
+}
+
+.logo{
+    height: 70px;
+    margin-left: 50px;
+}
+
+.navbar-dark .navbar-toggler{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.navbar-dark .navbar-toggler:focus{
+    color: black;
+}
+
+.nav{
+    background-color: black;
+    height: 70px;
+}
+
+.nav h2{
+    padding: 20px;
+    margin-left: 8px;
+    margin-top: 5px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.486);
+}
+
+.nav-link{
+    font-size: 13px;
+    margin-left: 15px;
+}
+.nav-link:hover{
+    color: #00C2F3 !important; 
+}
+
+.active{
+    color: #00C2F3 !important; 
+    background-color: transparent;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+.contactLi{
+    margin-left: 250px;
+}
+
+.cardPrimary{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+footer{
+    display: block;
+}
+footer .line{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.486);
+}
+footer p{
+    color: rgba(255, 255, 255, 0.486);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social{
+    margin-top: 70px;
+    border-top: 1px solid rgba(255, 255, 255, 0.486);
+    padding: 20px;
+    transition: .5s;
+}
+.social i:hover{
+    color: #00C2F3;
+}
+footer a{
+    margin: 10px;
+    font-size: 2em;
+    color: #fff;
+}
+.card .btn{
+    color: white;
+    background-color: #000;
+    border-color: #000;
+    transition: .5s;
+}
+.card .btn:hover{
+    background-color: #00C2F3;
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+@media (max-width: 765px) { 
+	#carouselExampleCaptions{
+        width: 100%;
+    }
+    .logo{
+        margin-top: 10px;
+        height: 50px;
+        margin-left: 30px;
+    }
+    .nav h2{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    
+    .navbar-nav{
+        display: flex;
+        margin-top: 30px;
+        text-align: left;
+    }
+    .nav-link{
+        font-size: 15px;
+        padding: .5rem 1rem;
+    }
+    .contactLi{
+        margin-top: 8px;
+        margin-left: 0px;
+    }
+    .card{
+        margin: 0;
+        
+        margin-top: 40px;
+
+    }
+}
+
+@media (min-width: 800px){
+    .logo{
+        margin-top: 10px;
+        height: 50px;
+        margin-left: 30px;
+    }
+    .nav h2{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    .navbar-nav{
+        display: block;
+        margin-top: 30px;
+        text-align: left;
+    }
+    .nav-link{
+        font-size: 15px;
+        padding: .5rem 1rem;
+    }
+    .contactLi{
+        margin-left: 0px;
+    }
+}
